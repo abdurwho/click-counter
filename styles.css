@@ -38,12 +38,13 @@ p {
 button {
   font-size: 1.5rem;
   margin: 0.5rem;
-  padding: 1rem 2rem;
   background-color: #7289da;
   border: none;
   border-radius: 5px;
   color: #fff;
   cursor: pointer;
+  width: 200px; 
+  height: 50px; 
 }
 
 button:hover {
