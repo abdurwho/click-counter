@@ -1,0 +1,64 @@
+/* Style the body element */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the container element */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Style the header element */
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style the paragraph element */
+p {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+#count {
+  font-size: 5rem;
+  margin-top: 2rem;
+}
+
+button {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  padding: 1rem 2rem;
+  background-color: #7289da;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+	background-color: #677bc4;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 18px;
+  }
+}
